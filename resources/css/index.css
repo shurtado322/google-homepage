@@ -1,0 +1,28 @@
+.leftHeader a:link {
+    color: black;
+    text-decoration: none;
+}
+.leftHeader a:visited {
+    color: black;
+    text-decoration: none;
+}
+.leftHeader a:hover {
+    color: black;
+    text-decoration: underline;
+}
+.leftHeader a:active {
+    color: black;
+    text-decoration: none;
+}
+.leftHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+.googleLogo {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
