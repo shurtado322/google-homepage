@@ -1,28 +1,87 @@
-.leftHeader a:link {
+header a {
+    font-size: 14px;
+    font-family: arial, sans-serif;
     color: black;
     text-decoration: none;
+    padding: 6px;
 }
-.leftHeader a:visited {
-    color: black;
-    text-decoration: none;
-}
-.leftHeader a:hover {
+
+header a:hover {
     color: black;
     text-decoration: underline;
 }
-.leftHeader a:active {
+
+footer a {
+    font-size: 14px;
+    font-family: arial, sans-serif;
     color: black;
     text-decoration: none;
+    padding: 6px;
 }
+
+footer a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
 .leftHeader {
-    display: flex;
+    position: absolute;
+    left: 0px;
+    width: 50%;
     justify-content: space-between;
     padding: 6px;
 }
 
+.rightHeader {
+    position: absolute;
+    right: 0px;
+    justify-content: space-between;
+    padding: 6px;
+    float: right;
+}
+
+.signIn {
+    font-size: 14px;
+    background-color: #1a73e8;
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 12px;
+    margin-left: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .25px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
 .googleLogo {
+    padding-top:100px;
     display: grid;
     margin-left: auto;
     margin-right: auto;
     width: auto;
+}
+
+.searchBar {
+    display: grid;
+    width: 100%;
+    margin:auto; 
+    max-width:500px;
+}
+
+.searchButton {
+    display: grid;
+    margin: auto;
+    width 100%;
+    max-width: 400px;
+}
+
+.luckyButton {
+    display: grid;
+    margin: auto;
+    width 100%;
+    max-width: 400px;
 }
